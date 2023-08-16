@@ -27,7 +27,7 @@ exports.userDataSchema = new Schema({
       firstName:String,
       lastName:String,
       userName:{type:String,required:true, unique:true},
-      email:String,
+      email:{type:String,required:true, unique:true},
       password:String
 
 });
