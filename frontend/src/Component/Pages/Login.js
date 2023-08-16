@@ -16,7 +16,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8080/login', formData);
+      const response = await axios.post('https://shivpalcommerce.onrender.com/login', formData);
       const token = response.data.token;
       localStorage.setItem('token', token);
       navigate('/MyApp/Home'); // Redirect to the home page

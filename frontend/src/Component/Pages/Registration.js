@@ -18,7 +18,7 @@ const Registration = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8080/', formData);
+      const response = await axios.post('https://shivpalcommerce.onrender.com/', formData);
       console.log('User registered:', response.data);
       navigate('/MyApp/Home'); // Redirect to the home page
       // You can add a success message or redirect the user here
