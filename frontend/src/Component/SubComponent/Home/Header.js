@@ -12,15 +12,15 @@ function Header() {
         <section className='Header-Section' style={{ marginTop: '11vh', overflow: 'hidden' }}>
           <Carousel>
             <Carousel.Item interval={4500}>
-            <img src={headerImg} style={{width:'100vw', height:'87vh'}}/>  
+            <img src={headerImg} alt='carousel image' style={{width:'100vw', height:'87vh'}}/>  
             </Carousel.Item>
 
             <Carousel.Item interval={4500}>
-            <img src={headerImg} style={{width:'100vw', height:'87vh'}}/> 
+            <img src={headerImg} alt='carousel image' style={{width:'100vw', height:'87vh'}}/> 
             </Carousel.Item>
 
             <Carousel.Item interval={4500}>
-            <img src={headerImg} style={{width:'100vw', height:'87vh'}}/>  
+            <img src={headerImg} alt='carousel image' style={{width:'100vw', height:'87vh'}}/>  
             </Carousel.Item>
           </Carousel>
         </section>

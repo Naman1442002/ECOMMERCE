@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux';
 import CardGrid from '../CardGrid';
 function Cart() {
   const CartProducts=useSelector(state=>state.Cart.cartItem)
-  console.log("cartProducts",CartProducts);
-       if (CartProducts.length==0) {
+  
+       if (CartProducts.length===0) {
         return(
           <div style={{display:'flex', justifyContent:'center', alignItems:'center', height:'100vh'}}>
             <h1>Cart is Empty Now!!!</h1>

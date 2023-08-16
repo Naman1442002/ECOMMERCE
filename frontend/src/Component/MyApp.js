@@ -6,7 +6,7 @@ import  Footer from './Footer';
 function MyApp() {
   return (
     <>
-          <nav style={{position:'fixed',top:'0px ', width:'100vw' , zIndex:'999'}}>
+          <nav id='nav' style={{position:'fixed',top:'0px ', width:'100vw' , zIndex:'999'}}>
             <NavScrollExample />
           </nav>
            <Outlet/>

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function NavScrollExample() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary"  style={{paddingTop:'0', paddingBottom:'0'}}>
+        <Navbar expand="lg" className="bg-body-tertiary"   style={{paddingTop:'0', paddingBottom:'0'}}>
             <Container fluid style={{backgroundColor:'#d0d0d0',zIndex:'10000'}}>
                 <Navbar.Brand href="#" style={{paddingTop:'0', paddingBottom:'0'}}><img width="80" height="80" src="https://img.icons8.com/clouds/100/administrator-male.png" alt="administrator-male"/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />

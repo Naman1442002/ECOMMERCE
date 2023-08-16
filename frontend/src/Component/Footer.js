@@ -19,13 +19,13 @@ const Footer = () => {
                     <Col md={4} className="mb-4">
                         <h4 style={{padding:'0rem 0rem 0rem 1rem', fontSize:'2.4rem'}}>Follow Us</h4>
                         <div className="social-icons" style={{fontSize:'2rem'}}>
-                            <a href="#" style={{ color: '#3b5998' , margin:'1rem' }}>
+                            <a href="#nav" style={{ color: '#3b5998' , margin:'1rem' }}>
                                 <FaFacebook />
                             </a>
-                            <a href="#" style={{ color: '#1DA1F2' , margin:'1rem' }}>
+                            <a href="#nav" style={{ color: '#1DA1F2' , margin:'1rem' }}>
                                 <FaTwitter />
                             </a>
-                            <a href="#" >
+                            <a href="#nav" >
                                 <FaInstagram style={{ backgroundImage: 'linear-gradient(45deg, #405DE6, #E1306C)',
                                     color: '#fff' , borderRadius:"28px", outerHeight:'30px', outerWidth:'28px' }}/>
                             </a>
