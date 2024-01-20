@@ -34,7 +34,7 @@ export const fetchItems=()=>
 {
     return (dispatch)=>{
         dispatch(fetch_items_request());
-        axios.get("https://shivpalcommerce.onrender.com/products")
+        axios.get("https://dummyjson.com/products")
         .then((resp)=>{
             dispatch(fetch_items_success(resp.data))})
         .catch((err)=>{dispatch(fetch_items_failure(err.message))})
